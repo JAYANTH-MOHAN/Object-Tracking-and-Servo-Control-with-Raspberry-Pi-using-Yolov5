@@ -1,0 +1,21 @@
+{
+    "os": "Linux-6.2.0-20-generic-x86_64-with-glibc2.10",
+    "python": "3.8.0",
+    "heartbeatAt": "2023-06-16T14:14:09.464811",
+    "startedAt": "2023-06-16T14:13:52.915520",
+    "docker": null,
+    "gpu": "NVIDIA GeForce RTX 2060",
+    "gpu_count": 1,
+    "cpu_count": 12,
+    "cuda": null,
+    "args": [
+        "--input_path",
+        "vid.mp4"
+    ],
+    "state": "running",
+    "program": "main.py",
+    "codePath": "main.py",
+    "host": "GUS",
+    "username": "gus",
+    "executable": "/home/gus/anaconda3/envs/yolosort/bin/python"
+}

@@ -1,0 +1,15 @@
+
+YOLOv5 🚀 v7.0-180-g9bb50b4 Python-3.8.0 torch-2.0.1+cu117 CUDA:0 (NVIDIA GeForce RTX 2060, 5927MiB)
+Namespace(agnostic_nms=False, augment=False, cam=-1, classes=[0], conf_thres=0.5, config_deepsort='./configs/deep_sort.yaml', device='', display=False, display_height=600, display_width=800, fourcc='mp4v', frame_interval=2, img_size=640, input_path='vid.mp4', iou_thres=0.5, save_path='output/', save_txt='output/predict/', weights='yolov5/weights/yolov5s.pt')
+Initialize DeepSORT & YOLO-V5
+Done..
+Done. Load video file  vid.mp4
+Done. Create output file  output/results.mp4
+Traceback (most recent call last):
+  File "main.py", line 261, in <module>
+    vdo_trk.run()
+  File "main.py", line 155, in run
+    wandb.log({"image_with_boxes": wandb.Image(im0, caption="Prediction")})
+NameError: name 'im0' is not defined
+Frame 0 Done. YOLO-time:(1.191s) SORT-time:(0.146s)
+<class 'NameError'> name 'im0' is not defined <traceback object at 0x7fef45404440>
