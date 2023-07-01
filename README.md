@@ -1,0 +1,2 @@
+# Yolo
+ This is a smart home camera system using Yolo v5 along With Deepsort . In this repository we impllemented yolo algorithm with deepsort for tracking.This code runs on a ubuntu machine . The camera is connected to the ubuntu machine and camera is fixed on top of a servo motor for it to rotate.Based on object / person the camera rotates wherever the person goes in x axis . The bounding box info is passed to raspberry pi using TCP connection
