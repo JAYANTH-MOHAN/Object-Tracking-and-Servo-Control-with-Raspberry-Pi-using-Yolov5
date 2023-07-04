@@ -1,4 +1,4 @@
-# Webcam-based Object Tracking and Servo Control with Raspberry Pi Using Yolo and Deepsort
+# Webcam-based Object Tracking and Servo Control with Raspberry Pi Using Yolo v5 and Deepsort
 
 This GitHub project aims to provide a solution for real-time object tracking using YOLO (You Only Look Once) and DeepSORT (Deep Simple Online and Realtime Tracking) algorithms, along with servo motor control. The project utilizes a webcam connected to a laptop to capture video frames, and the object center for each frame is obtained using the YOLO and DeepSORT models.
 
